@@ -29,7 +29,7 @@ const queryToString = query => {
 
     result += ')';
   } else if (query.type === 'Condition') {
-    if(`${query.operator}` != ".isEmpty")
+    if(`${query.operator}` !== ".isEmpty")
     result = `${query.field} ${query.operator} ${query.value}`;
     else result = `${query.field}${query.operator}`;
   } else {

@@ -46,7 +46,7 @@ const timeOperatorOptions = timeoperators.map((operator, index) => {
 
 
 const operatorOptionsChoice = (string) => {
-    if(string != "Time Period")
+    if(string !== "Time Period")
         return operatorOptions;
     return timeOperatorOptions;
 };
@@ -85,9 +85,9 @@ class Condition extends React.Component {
         }
     }
     displayInput(string, field) {
-        if(string == '.isEmpty')
+        if(string === '.isEmpty')
             return;
-        if(field != "Customer ID" && field != "Time Period")
+        if(field !== "Customer ID" && field !== "Time Period")
         return (
                 <div className="valueParent">
                     <div className="heading">
