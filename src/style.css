@@ -1,0 +1,81 @@
+
+.query {
+  margin: 10px 0; }
+
+.result {
+  overflow:hidden;
+}
+
+.result {
+  border-style:solid;
+  border-color:grey;
+  overflow:scroll;
+  background-color: rgba(100, 100, 255);
+  font-color:white;
+  padding: 5px;
+  margin:10px;
+}
+
+
+.result::-webkit-scrollbar {
+  display: none;
+}
+
+.childrenConditions {
+  margin: 10px;
+border-style: solid;
+border-color:grey;
+background-color: rgba(10, 10, 50, 0.5);
+padding: 10px;
+border-radius: 2px;
+ }
+
+.fields {
+  margin: 5px;
+}
+.operators {
+  margin: 5px;
+}
+.value {
+  margin: 5px;
+}
+
+.query .condition {
+  dispaly: block;
+  margin: 10px 0;
+  position: relative;
+  border-radius: 5px;
+  padding: 5px;
+  background: rgba(55, 55, 160, 0.5);
+  box-sizing: border-box;
+  overflow:hidden;
+}
+.fieldParent {
+  float: left;
+  width: 30%;
+  margin: 5px;
+} 
+.operatorsParent {
+  float: left;
+  width:30%;
+  margin: 5px;
+} 
+.valueParent {
+  float:left;
+  width:30%;
+}
+.value {
+  float: left;
+} 
+.heading {
+  margin-left: 5px;
+}
+.conditionGroupButton .addCondition{
+
+  position: fixed;
+  bottom: 5px;
+  left: 0px;
+  width:80px;
+  object-fit: contain;
+  padding-left: 20px;
+}
